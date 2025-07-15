@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nrstirzaker/JigsawMenuServer/issues"
   },
-  "homepage": "https://github.com/nrstirzaker/JigsawMenuServer#readme"
+  "homepage": "https://github.com/nrstirzaker/JigsawMenuServer#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

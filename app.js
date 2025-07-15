@@ -1,15 +1,14 @@
-const http = require("http");
-const fs = require("fs");
+const express = require("express");
+const path = require("path");
+const port = 3000;
 
-fs.readFile("./main.htm", (err, html) => {
-    if (err) {
-        throw err;
-    }
-    const server = http.createServer((req, res) => {
-        res.write(html);
-        res.end();
-    });
+let app = express();
+let publicPath = path.join(__dirname, "public")
 
-    server.listen(3000);
-    console.log("Listening on port 3000");
-})
+
+app.get("/", function (req, res) {
+    res.sendFile(publicPath + "/index.html")
+});
+
+app.listen(port)
+console.log("Listening on port " + port)
