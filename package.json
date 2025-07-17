@@ -1,7 +1,7 @@
 {
   "name": "lighthouse",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000J\u0000i\u0000g\u0000s\u0000a\u0000w\u0000M\u0000e\u0000n\u0000u\u0000S\u0000e\u0000r\u0000v\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "description": " ",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/nrstirzaker/JigsawMenuServer#readme",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.11",
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "keywords": []
 }
